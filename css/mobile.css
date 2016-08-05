@@ -45,6 +45,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 10%;
+      animation: slideInDown 1s;
     }
   #view-2 {
     position: relative;
@@ -153,4 +154,36 @@
         background-size: contain;
         border-radius: 75px;
       }
+}
+
+/* Animations */
+@-webkit-keyframes slideInDown {
+ from {
+   -webkit-transform: translate3d(0, -100%, 0);
+   transform: translate3d(0, -100%, 0);
+   visibility: visible;
+ }
+
+ to {
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+ }
+}
+
+@keyframes slideInDown {
+ from {
+   -webkit-transform: translate3d(0, -100%, 0);
+   transform: translate3d(0, -100%, 0);
+   visibility: visible;
+ }
+
+ to {
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+ }
+}
+
+.slideInDown {
+ -webkit-animation-name: slideInDown;
+ animation-name: slideInDown;
 }
