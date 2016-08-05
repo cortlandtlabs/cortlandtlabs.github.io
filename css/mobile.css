@@ -110,40 +110,47 @@
       line-height: 120%;
       color: #333436;
     }
-    .picture-1 {
-      position: relative;
-      top: 30%;
-      width: 150px;
-      height: 150px;
-      float: left;
-      background-image: url(../assets/aaron.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      border-radius: 75px;
+    .team {
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      bottom: 13%;
     }
-    .picture-2 {
-      position: relative;
-      top: 30%;
-      width: 150px;
-      height: 150px;
-      float: left;
-      left: 5%;
-      background-image: url(../assets/jon.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      border-radius: 75px;
-    }
-    .picture-3 {
-      position: relative;
-      top: 35%;
-      width: 150px;
-      height: 150px;
-      float: left;
-      left: 25%;
-      background-image: url(../assets/jack.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      border-radius: 75px;
-    }
+      .picture-1 {
+        position: relative;
+        top: 25%;
+        width: 120px;
+        height: 120px;
+        float: left;
+        left: 8%;
+        background-image: url(../assets/aaron.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 75px;
+      }
+      .picture-2 {
+        position: relative;
+        top: 25%;
+        width: 120px;
+        height: 120px;
+        float: left;
+        left: 17%;
+        background-image: url(../assets/jon.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 75px;
+      }
+      .picture-3 {
+        position: relative;
+        top: 30%;
+        width: 120px;
+        height: 120px;
+        float: left;
+        left: 30%;
+        background-image: url(../assets/jack.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 75px;
+      }
 }
