@@ -124,7 +124,7 @@
         width: 120px;
         height: 120px;
         float: left;
-        left: 8%;
+        left: 10%;
         background-image: url(../assets/aaron.jpg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -136,7 +136,7 @@
         width: 120px;
         height: 120px;
         float: left;
-        left: 17%;
+        left: 25%;
         background-image: url(../assets/jon.jpg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -144,11 +144,10 @@
       }
       .picture-3 {
         position: relative;
-        top: 30%;
+        top: 70%;
         width: 120px;
         height: 120px;
-        float: left;
-        left: 30%;
+        left: 35%;
         background-image: url(../assets/jack.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -157,29 +156,52 @@
       }
 }
 
+/* iPhone 5 and all */
+@media (max-width: 375px){
+  .picture-1 {
+    left: 5%;
+  }
+  .picture-2 {
+    left: 20%;
+  }
+  .picture-3 {
+    left: 30%;
+  }
+}
+@media (max-width: 320px){
+  .picture-1 {
+    left: 5%;
+  }
+  .picture-2 {
+    left: 15%;
+  }
+  .picture-3 {
+    left: 30%;
+  }
+}
 /* Animations */
 @-webkit-keyframes slideInDown {
- from {
-   -webkit-transform: translate3d(0, -100%, 0);
-   transform: translate3d(0, -100%, 0);
-   visibility: visible;
- }
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
 
- to {
-   -webkit-transform: translate3d(0, 0, 0);
-   transform: translate3d(0, 0, 0);
- }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 @keyframes slideInDown {
- from {
-   -webkit-transform: translate3d(0, -100%, 0);
-   transform: translate3d(0, -100%, 0);
-   visibility: visible;
- }
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
 
- to {
-   -webkit-transform: translate3d(0, 0, 0);
-   transform: translate3d(0, 0, 0);
- }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
