@@ -8,7 +8,7 @@
   #view-1 {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
     .logo {
       position: relative;
@@ -45,7 +45,8 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 10%;
-      animation: slideInDown 1s;
+      -webkit-animation-name: slideInDown 2s;
+      animation: slideInDown 2s;
     }
   #view-2 {
     position: relative;
@@ -92,7 +93,7 @@
   #view-3 {
     position: relative;
     width: 90vw;
-    height: 100vh;
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Neuzeit', 'Didot';
@@ -181,9 +182,4 @@
    -webkit-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
  }
-}
-
-.slideInDown {
- -webkit-animation-name: slideInDown;
- animation-name: slideInDown;
 }
