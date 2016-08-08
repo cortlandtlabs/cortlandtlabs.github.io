@@ -10,6 +10,72 @@
 body {
     width: 100%; height: 100%;
     margin: 0px; padding: 0px;
+    background-color: #828487;
+}
+.menu-bar {
+    position: absolute;
+    color: #F5F6ED;
+    font-size: 1.8em;
+    font-family: 'Avenir', 'Comic Sans';
+    font-weight: lighter;
+    top: 4%;
+    left: 15%;
+    width: 50%;
+}
+
+.menu-bar-item {
+    position: relative;
+    height: 6%;
+    width: 15%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menu-bar-item.active {
+    background-color:  #F5F6ED;
+    color: #828487;
+}
+
+#view-1 {
+    position: absolute;
+    background-color:#F5F6ED;
+    width: 90%;
+    height: 90%;
+    margin-left: 2%;
+    margin-right: 8%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+#view-2 {
+    position: absolute;
+    top:100%;
+    mar
+}
+#view-3 {
+    display: none;
+}
+
+.mission {
+    position: relative;
+    font-size: 4.5em;
+    font-family: 'Didot', 'Comic Sans';
+    text-align: left;
+    margin-top: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #333436;
+}
+.logo {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 5%;
+    background-image: url(../assets/Cortlandt-Labs-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @font-face {
