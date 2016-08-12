@@ -14,6 +14,7 @@
     height: 100%;
   }
     .logo {
+      display: block;
       position: relative;
       width: 100%;
       height: 30%;
@@ -23,6 +24,7 @@
       background-position: center;
     }
     .mission {
+      display: block;
       position: relative;
       font-size: 4.5em;
       font-family: 'Didot', 'Comic Sans';
