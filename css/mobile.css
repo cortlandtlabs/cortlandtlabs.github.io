@@ -4,16 +4,22 @@
   }
   .bg {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: #F5F6ED;
   }
   #view-1 {
+    display: block;
     position: relative;
     width: 100vw;
     height: 100%;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
     .logo {
+      display: block;
       position: relative;
       width: 100%;
       height: 30%;
@@ -22,14 +28,15 @@
       background-repeat: no-repeat;
       background-position: center;
     }
-    .mission {
+    .mission.mobile {
+      display: block;
       position: relative;
       font-size: 4.5em;
       font-family: 'Didot', 'Comic Sans';
       text-align: left;
-      margin-top: 10%;
-      margin-left: 5%;
-      margin-right: 5%;
+      top: 0%;
+      left: 5%;
+      right: 5%;
       color: #333436;
       
     }
@@ -40,10 +47,11 @@
       bottom: 0;
     }
     .arrow {
+      display: block;
       position: absolute;
       width: 100%;
       height: 10%;
-      bottom: 0;
+      bottom: 10%;
       background-image: url(../assets/down-arrow.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -54,47 +62,30 @@
   #view-2 {
     position: relative;
     width: 90vw;
-    margin-left: 5%;
-    margin-right: 5%;
-    top: 0;
+    height: auto;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    bottom: 0;
   }
-    .row-1 {
-      width: 100%;
-      height: 33.3%;
-    }
-      .row1-img {
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-      }
-    .row-2 {
-      width: 100%;
-      height: 33.3%;
-    }
-      .row2-img {
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-      }
-    .row-3 {
-      width: 100%;
-      height: 33.3%;
-    }
-      .row3-img {
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-      }
-    .row-4 {
-      width: 100%;
-      height: 33.3%;
-    }
-      .row4-img {
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-      }
-  #view-3 {
+
+.small-height {
+  height: 33.3%;
+}
+
+.slight-transparency {
+  opacity: 0.8;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+#view-3 {
     display: block;
     position: relative;
     width: 90vw;
@@ -159,6 +150,9 @@
         background-size: contain;
         border-radius: 75px;
       }
+  .desktop {
+    display: none;
+  }
 }
 
 /* iPhone 5 and all */
