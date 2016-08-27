@@ -170,6 +170,7 @@ body {
     height: 100vh;
   }
   footer {
+    height: 28em;
     text-align: center;
     font-style: 'avenir';
     font-weight: lighter;
@@ -177,42 +178,10 @@ body {
   }
   footer img {
     display: block;
-    width: 10%;
+    width: 10em;
     margin: 0 auto;
     margin-top: 5em;
   }
   footer p {
     font-size: 12px;
   }
-
-.med-large-width {
-  width: 74%;
-}
-
-#view-3 {
-  display: none;
-}
-
-.mobile {
-  display: none;
-}
-.desktop {
-  display: block;
-}
-.slick-dots {
-  bottom: 40%;
-  width: 0;
-  right: -40px;
-}
-.slick-dots li {
-  float: right;
-  display: block;
-}
-.slick-slide {
-    height: 560px !important;
-    width: 1200px !important;
-}
-@font-face {
-  font-family: Neuzeit;
-  src: url('../assets/Neuzeit.ttf');
-}
