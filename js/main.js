@@ -1,11 +1,10 @@
 $(document).ready(function() {
-  if($(window).width() > 650) {
-    $('#view-2').slick({
-      dots: true,
-      arrows: false,
-      speed: 500,
-      vertical: true,
-      verticalSwiping: true,
-    })
-  }
-})
+  $('.portfolio').click(function(event) {
+    event.preventDefault();
+    $.smoothScroll({
+      scrollTarget: '#portfolio',
+      speed: 2000,
+      offset: 5
+    });
+  });
+});
