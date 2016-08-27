@@ -12,25 +12,41 @@ body {
   margin: 0px; padding: 0px;
   background-color: #F5F6ED;
 }
-  .main {
-    position: absolute;
-    min-height: 50rem;
-    width: 100%;
+
+/*--- Cortlandt Red ---*/
+  .cortlandt-red {
+    color: #FF2444;
+  }
+  .firstSegment {
+    height: 100vh;
   }
   .mission-statement {
     position: relative;
     font-size: 4.5em;
-    margin-top: 25%;
+    padding-top: 38vh;
     font-family: 'Didot', 'Comic Sans';
     text-align: center;
     color: #333436;
   }
   .logo {
-    position: relative;
     display: block;
     margin: 0 auto;
-    width: 25%;
+    margin-top: 8em;
+    width: 25em;
   }
+  .secondSegment {
+    min-height: 35em;
+    width: 100%;
+    background-image: url("../assets/nycwtc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .thirdSegment {
+    min-height: 60em;
+    width: 100%;
+  }
+
 .med-large-width {
   width: 74%;
 }
