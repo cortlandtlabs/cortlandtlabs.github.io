@@ -46,6 +46,19 @@ body {
     min-height: 60em;
     width: 100%;
   }
+  .fourthSegment {
+    min-height: 35em;
+    width: 100%;
+    background-image: url("../assets/nycwtc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .fifthSegment {
+    min-height: 50em;
+    width: 100%;
+    background-color: #878787;
+  }
 
 .med-large-width {
   width: 74%;
