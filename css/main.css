@@ -107,15 +107,19 @@ body {
   }
   .secondSegment {
     min-height: 35em;
-    width: 100%;
     background-image: url("../assets/nycwtc.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   .thirdSegment {
-    min-height: 60em;
+    min-height: 70em;
+  }
+  .thirdSegment .seven {
+    height: 20em;
     width: 100%;
+    margin:2.5%;
+    background-color: red;
   }
   .fourthSegment {
     min-height: 35em;
