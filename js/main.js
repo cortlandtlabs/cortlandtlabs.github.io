@@ -3,8 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     $.smoothScroll({
       scrollTarget: '#portfolio',
-      speed: 2000,
-      offset: 5
+      speed: 1800,
     });
   });
 });
