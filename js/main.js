@@ -13,4 +13,11 @@ $(document).ready(function() {
       speed: 1800,
     });
   });
+  $('.team').click(function(event) {
+    event.preventDefault();
+    $.smoothScroll({
+      scrollTarget: '#team',
+      speed: 1800,
+    });
+  });
 });
