@@ -119,7 +119,37 @@ body {
     height: 20em;
     width: 100%;
     margin:2.5%;
-    background-color: red;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #d5d5d5;
+  }
+  .work1 {
+    height:100%;
+    width: 100%;
+    background-image: url("../assets/chatstyle.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .work2 {
+    height:100%;
+    width: 100%;
+    background-image: url("../assets/find.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .work3 {
+    height:100%;
+    width: 100%;
+    background-image: url("../assets/pathway.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .work4 {
+    height:100%;
+    width: 100%;
+    background-image: url("../assets/gigs.jpg");
+    background-size: cover;
+    background-position: center;
   }
   .fourthSegment {
     min-height: 35em;
