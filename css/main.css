@@ -169,6 +169,21 @@ body {
   .seventhSegment {
     height: 100vh;
   }
+  footer {
+    text-align: center;
+    font-style: 'avenir';
+    font-weight: lighter;
+
+  }
+  footer img {
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+  footer p {
+    font-size: 12px;
+  }
 
 .med-large-width {
   width: 74%;
