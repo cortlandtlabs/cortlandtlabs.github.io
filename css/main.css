@@ -93,6 +93,7 @@ body {
       font-family: 'Didot', 'Comic Sans';
       text-align: center;
       color: #333436;
+      line-height: 1.1em;
     }
     .logo {
       display: block;
