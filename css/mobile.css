@@ -28,7 +28,7 @@
       background-repeat: no-repeat;
       background-position: center;
     }
-    .mission.mobile {
+    .mission-statement.mobile {
       display: block;
       position: relative;
       font-size: 4.5em;
@@ -38,7 +38,7 @@
       left: 5%;
       right: 5%;
       color: #333436;
-      
+
     }
     .bottom {
       position: absolute;

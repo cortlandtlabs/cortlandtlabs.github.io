@@ -4,54 +4,61 @@
   <title>Cortlandt Labs</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
-  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.3/components/icon.min.css">
+  <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous" defer></script>
+  <script type="text/javascript" src="js/semantic.js" defer></script>
+  <script type="text/javascript" src="js/main.js" defer></script>
+  <script type="text/javascript" src="js/smoothScroll.js" defer></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body class="bg">
-  <div class="menu-bar">
-    <span class="menu-bar-item active">portfolio</span>
-    <span class="menu-bar-item">team</span>
+
+<body>
+  <div class="ui top fixed menu">
+    <a class="item portfolio" href="#portfolio">portfolio</a>
+    <a class="item services" href="#services">services</a>
+    <a class="item team" href="#team">team</a>
+    <a class="right item">contact</div>
   </div>
-  <div id="view-1" class="mobile">
-    <div class="logo mobile"></div>
-    <div class="mission mobile">architect, code, deploy.</div>
-    <a href="#" class="arrow mobile"></a>
+  <div class="firstSegment segment">
+    <div class="mission-statement">architect, code, deploy.</div>
+    <img class="logo" src="assets/Cortlandt-Labs-logo.png" />
   </div>
-  <div id="view-2">
-    <div class="row-0 desktop">
-      <div class="mission desktop">architect, code, deploy.</div>
-      <div class="logo desktop"></div>
-    </div>
-    <div class="small-height full-width med-large-width">
-      <img class="slight-transparency full-height full-width med-large-width" src="assets/chatstyle.jpg"/>
-    </div>
-    <div class="small-height full-width med-large-width">
-      <img class="slight-transparency full-height full-width med-large-width" src="assets/find.jpg"/>
-    </div>
-    <div class="small-height full-width med-large-width">
-      <img class="slight-transparency full-height full-width med-large-width" src="assets/pathway.jpg"/>
-    </div>
-    <div class="small-height full-width med-large-width">
-      <img class="slight-transparency full-height full-width med-large-width" src="assets/gigs.jpg"/>
-    </div>
+  <div class="secondSegment segment">
   </div>
-  <div id="view-3">
-    <img class="cl-logo" src="assets/Cortlandt-Labs-logo.png" />
-    <div class="team-heading">
-      Cortlandt Labs is a technology development agency started in NYC.
-    </div>
-    <div class="team">
-      <div class="picture-1"></div>
-      <div class="picture-2"></div>
-      <div class="picture-3"></div>
+  <div class="thirdSegment segment" id="portfolio">
+    <h1 class="ui header"><i class="ui cortlandt-red small circle thin icon"></i>portfolio</h1>
+    <div class="ui stackable grid container">
+      <div class="seven wide column">
+        <div class="work1"></div>
+      </div>
+      <div class="seven wide column">
+        <div class="work2"></div>
+      </div>
+      <div class="seven wide column">
+        <div class="work3"></div>
+      </div>
+      <div class="seven wide column">
+        <div class="work4"></div>
+      </div>
     </div>
   </div>
-  <script src="js/mobile.js"></script>
-  <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-  <script src="js/main.js"></script>
+  <div class="fourthSegment segment">
+  </div>
+  <div class="fifthSegment segment" id="services">
+    <h1 class="ui header"><i class="ui cortlandt-red small circle thin icon"></i>services</h1>
+  </div>
+  <div class="sixthSegment segment">
+  </div>
+  <div class="seventhSegment segment" id="team">
+    <h1 class="ui header"><i class="ui cortlandt-red small circle thin icon"></i>team</h1>
+  </div>
+  <footer class="ui inverted vertical footer segment">
+    <img src="assets/Cortlandt-Labs-logo.png">
+    <h3>Cortlandt Labs, LLC.</h3>
+    <p><i class="ui copyright icon"></i>2016 All Rights Reserved</p>
+  </footer>
 </body>
 </html>

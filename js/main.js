@@ -1,11 +1,23 @@
 $(document).ready(function() {
-  if($(window).width() > 650) {
-    $('#view-2').slick({
-      dots: true,
-      arrows: false,
-      speed: 500,
-      vertical: true,
-      verticalSwiping: true,
-    })
-  }
-})
+  $('.portfolio').click(function(event) {
+    event.preventDefault();
+    $.smoothScroll({
+      scrollTarget: '#portfolio',
+      speed: 1800,
+    });
+  });
+  $('.services').click(function(event) {
+    event.preventDefault();
+    $.smoothScroll({
+      scrollTarget: '#services',
+      speed: 1800,
+    });
+  });
+  $('.team').click(function(event) {
+    event.preventDefault();
+    $.smoothScroll({
+      scrollTarget: '#team',
+      speed: 1800,
+    });
+  });
+});
