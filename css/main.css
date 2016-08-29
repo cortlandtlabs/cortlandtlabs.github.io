@@ -209,7 +209,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  padding-top:20%;
+  padding-top:18%;
   border-radius: 50%;
   background: #FF2444;
   color: white;
@@ -218,8 +218,8 @@ body {
   opacity: 0;
   transition: all 0.2s ease-in-out 0s;
   line-height: 1;
-  font-family: "Neoteric" !important;
-  font-weight: lighter;
+  font-family: "Neoteric";
+  letter-spacing: 1px;
   }
   .profile-pic:hover .img-description {
     visibility: visible;
