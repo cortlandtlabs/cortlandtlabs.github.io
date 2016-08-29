@@ -1,28 +1,16 @@
 @media (max-width: 650px) {
-
-    .logo {
-      display: block;
-      position: relative;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin: 0 auto;
-    }
-    .mission-statement {
-      position: relative;
-      font-size: 4.5em;
-      line-height: 1em;
-      padding-top: 33vh;
-      font-family: 'Didot', 'Comic Sans';
-      text-align: center;
-      color: #333436;
-
-    }
+  .mission-statement {
+    line-height: 1em;
+    padding-top: 33vh;
+  }
 
 }
 
 @media (max-width: 450px) {
   .mission-statement {
     padding-top: 18vh;
+  }
+  .logo {
+    margin-top: 0;
   }
 }
