@@ -19,6 +19,16 @@
   .fourthSegment {
     display: none;
   }
+  .mission-statement span {
+    display: none;
+  }
+  .statement {
+    display: inline;
+  }
+  .statement p {
+    margin: 0;
+    line-height: 1.05em;
+  }
 }
 
 @media (max-width: 360px) {
