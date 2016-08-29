@@ -20,4 +20,8 @@ $(document).ready(function() {
       speed: 1800,
     });
   });
+  $("#typing").typed({
+      strings: ["architect,^350 code,^350 deploy", ],
+      typeSpeed: 60,
+  });
 });

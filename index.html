@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/mobile.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.3/components/icon.min.css">
   <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous" defer></script>
+  <script type="text/javascript" src="js/typed.js" defer></script>
   <script type="text/javascript" src="js/semantic.js" defer></script>
   <script type="text/javascript" src="js/main.js" defer></script>
   <script type="text/javascript" src="js/smoothScroll.js" defer></script>
@@ -16,14 +17,23 @@
 </head>
 
 <body>
-  <div class="ui top fixed menu">
-    <a class="item portfolio" href="#portfolio">portfolio</a>
-    <a class="item services" href="#services">services</a>
-    <a class="item team" href="#team">team</a>
-    <a class="right item" href="mailto:Cortlandtlabs@gmail.com">contact</div>
+  <div class="ui container">
+    <div class="ui top fixed menu">
+      <a class="item portfolio" href="#portfolio"><span>portfolio</span></a>
+      <a class="item services" href="#services"><span>services</span></a>
+      <a class="item team" href="#team"><span>team</span></a>
+      <a class="right item" href="mailto:Cortlandtlabs@gmail.com"><span>contact</span></a>
+    </div>
   </div>
   <div class="firstSegment segment">
-    <div class="mission-statement">architect, code, deploy.</div>
+    <div class="mission-statement">
+      <span id="typing"></span>
+      <div class="statement">
+        <p>architect,</p>
+        <p>code,</p>
+        <p>deploy.</p>
+      </div>
+    </div>
     <img class="logo" src="assets/Cortlandt-Labs-logo.png" />
   </div>
   <div class="secondSegment segment">

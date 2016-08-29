@@ -79,6 +79,22 @@ body {
   animation-name: flip;
 }
 
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
 /*--- Cortlandt Red ---*/
   .cortlandt-red {
     color: #FF2444;
@@ -93,6 +109,9 @@ body {
       font-family: 'Didot', 'Comic Sans';
       text-align: center;
       color: #333436;
+      }
+    .statement {
+      display: none;
     }
     .logo {
       display: block;
@@ -100,7 +119,6 @@ body {
       margin-top: 8em;
       width: 20em;
       animation-duration: 1.75s;
-      animation-delay: 1s;
       animation-iteration-count: 1;
       animation-name:flip;
 
@@ -184,4 +202,35 @@ body {
   }
   footer p {
     font-size: 12px;
+  }
+  .ui.top.fixed.menu {
+    opacity: 0.8;
+    background-color: #F5F6ED;
+  }
+  @media (min-width: 650px) {
+    .item span {
+      position: relative;
+      font-size: 1.25em;
+      color: #000;
+      text-decoration: none;
+    }
+    .item span:hover {
+      color: #000;
+    }
+    .item span:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #000;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out 0s;
+    }
+    .item span:hover:before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
   }
