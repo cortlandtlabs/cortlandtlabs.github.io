@@ -190,6 +190,35 @@ body {
   .seventhSegment {
     height: 100vh;
   }
+  .team-photos {
+    margin: 2em !important;
+  }
+ .img-description {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  top: 0.5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top:20%;
+  border-radius: 50%;
+  background: #FF2444;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out 0s;
+  line-height: 1;
+  font-family: "Neoteric" !important;
+  font-weight: lighter;
+  }
+  .profile-pic:hover .img-description {
+    visibility: visible;
+    opacity: 0.8;
+  }
+
   footer {
     height: 28em;
     text-align: center;

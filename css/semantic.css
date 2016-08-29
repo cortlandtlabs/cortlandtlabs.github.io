@@ -11460,7 +11460,7 @@ img.ui.bordered.image {
 .ui.small.images img,
 .ui.small.images svg,
 .ui.small.image {
-  width: 150px;
+  width: 200px;
   height: auto;
   font-size: 0.92857143rem;
 }
