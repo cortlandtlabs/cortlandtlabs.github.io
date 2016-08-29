@@ -13,6 +13,13 @@ body {
   background-color: #F5F6ED;
 }
 
+/*---Fonts ---*/
+
+@font-face {
+  font-family: 'Neoteric';
+  src: url('../assets/neoteric.ttf') format('truetype');
+}
+
 /*--- Animation ---*/
 
 @keyframes pulse {
