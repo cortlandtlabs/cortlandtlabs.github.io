@@ -11,6 +11,18 @@
     padding-top: 18vh;
   }
   .logo {
-    margin-top: 0;
+    margin-top: 5em;
+  }
+  .thirdSegment {
+    min-height: 91.5em;
+  }
+  .fourthSegment {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    margin-top: 0.5em;
   }
 }
