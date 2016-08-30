@@ -231,7 +231,10 @@ body {
     text-align: center;
     font-style: 'avenir';
     font-weight: lighter;
-
+  }
+  footer h2 {
+    margin-top: 0;
+    font-family: "Neoteric";
   }
   footer img {
     display: block;
