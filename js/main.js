@@ -6,10 +6,10 @@ $(document).ready(function() {
       speed: 1800,
     });
   });
-  $('.services').click(function(event) {
+  $('.values').click(function(event) {
     event.preventDefault();
     $.smoothScroll({
-      scrollTarget: '#services',
+      scrollTarget: '#values',
       speed: 1800,
     });
   });

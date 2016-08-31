@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/mobile.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.3/components/icon.min.css">
-  <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous" defer></script>
-  <script type="text/javascript" src="js/typed.js" defer></script>
-  <script type="text/javascript" src="js/semantic.js" defer></script>
-  <script type="text/javascript" src="js/main.js" defer></script>
-  <script type="text/javascript" src="js/smoothScroll.js" defer></script>
+  <script defer src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+  <script defer type="text/javascript" src="js/typed.js"></script>
+  <script defer type="text/javascript" src="js/semantic.js"></script>
+  <script defer type="text/javascript" src="js/main.js"></script>
+  <script defer type="text/javascript" src="js/smoothScroll.js"></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
@@ -20,7 +19,7 @@
   <div class="ui container">
     <div class="ui top fixed menu">
       <a class="item portfolio" href="#portfolio"><span>portfolio</span></a>
-      <a class="item services" href="#services"><span>services</span></a>
+      <a class="item values" href="#values"><span>values</span></a>
       <a class="item team" href="#team"><span>team</span></a>
       <a class="right item" href="mailto:Cortlandtlabs@gmail.com"><span>contact</span></a>
     </div>
@@ -39,7 +38,9 @@
   <div class="secondSegment segment">
   </div>
   <div class="thirdSegment segment" id="portfolio">
-    <h1 class="ui header"><i class="ui cortlandt-red small circle thin icon"></i>portfolio</h1>
+    <div class="ui container">
+      <h1 class="ui header"><i class="ui cortlandt-red small circle thin icon"></i>portfolio</h1>
+    </div>
     <div class="ui stackable grid container">
       <div class="seven wide column">
         <div class="work1"></div>
@@ -58,53 +59,72 @@
   <div class="fourthSegment segment">
   </div>
   <div class="fifthSegment segment" id="values">
-    <h1 class="ui header">
-      <i class="ui cortlandt-red small circle thin icon">
-      </i>
-      values
-    </h1>
-    <p>
-      From product/market fit to scalable business, we're here to architect,
-      code, and deploy software with you. 
-    </p>
-    <p>
-      Lots of people have ideas; many don't have partnerships that seek
-      understanding to help nuture, improve, and launch them. 
-    </p>
-    <p>
-      Small businesses become sustainable by constantly improving with 
-      flexibility and agility. With this philosophy, you'll not only
-      survive, but also grow and adapt faster than others. With passion and
-      hard work, a business is a life-long pursuit. 
-    </p>
-    <p>
-      Partner with us to build your strong business efficiently. 
-    </p>
+    <div class="ui container">
+      <h1 class="ui header">
+        <i class="ui cortlandt-red small circle thin icon">
+        </i>
+        values
+      </h1>
+      <p>
+        From product/market fit to scalable business, we're here to architect,
+        code, and deploy software with you.
+      </p>
+      <p>
+        Lots of people have ideas; many don't have partnerships that seek
+        understanding to help nuture, improve, and launch them.
+      </p>
+      <p>
+        Small businesses become sustainable by constantly improving with
+        flexibility and agility. With this philosophy, you'll not only
+        survive, but also grow and adapt faster than others. With passion and
+        hard work, a business is a life-long pursuit.
+      </p>
+      <p>
+        Partner with us to build your strong business efficiently.
+      </p>
+    </div>
   </div>
   <div class="sixthSegment segment">
   </div>
   <div class="seventhSegment segment" id="team">
-    <h1 class="ui header">
-      <i class="ui cortlandt-red small circle thin icon">
-      </i>
-      team
-    </h1>
-    <p>
-      With a wide range of experiences, we were inspired to dive into making 
-      beautiful and meaningful things. 
-    </p>
-    <p>
-      Happiness always has and always will be about the people: our team, the 
-      open-source community, and our partnerships. We help each other through 
-      the tough times and grow through shared opportunities and learning.
-    </p>
-    <p>
-      We're all in this together. 
-    </p>
+    <div class="ui container">
+      <h1 class="ui header">
+        <i class="ui cortlandt-red small circle thin icon">
+        </i>
+        team
+      </h1>
+      <div class="team-photos ui three column grid">
+        <div class="profile-pic column">
+            <img id="aaron-profile-pic" class= "ui small centered circular image" src="assets/aaron.jpg" />
+            <p class="img-description">aaron<br>•<br>principal</p>
+        </div>
+        <div class="profile-pic column">
+            <img id="jack-profile-pic" class= "ui small centered circular image" src="assets/jack.jpg" />
+            <p class="img-description">jack<br>•<br>principal</p>
+        </div>
+        <div class="profile-pic column">
+            <img id="jon-profile-pic" class= "ui small centered circular image" src="assets/jon.jpg" />
+            <p class="img-description">jon<br>•<br>principal</p>
+        </div>
+      </div>
+      <p>
+        With a wide range of experiences, we were inspired to dive into making
+        beautiful and meaningful things.
+      </p>
+      <p>
+        Happiness always has and always will be about the people: our team, the
+        open-source community, and our partnerships. We help each other through
+        the tough times and grow through shared opportunities and learning.
+      </p>
+      <p>
+        We're all in this together.
+      </p>
+    </div>
   </div>
+
   <footer class="ui inverted vertical footer segment">
     <img src="assets/Cortlandt-Labs-logo.png">
-    <h3>Cortlandt Labs, LLC</h3>
+    <h2>Cortlandt Labs</h2>
     <p><i class="ui copyright icon"></i>2016 All Rights Reserved</p>
   </footer>
   <script>
