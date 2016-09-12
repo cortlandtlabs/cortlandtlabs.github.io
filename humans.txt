@@ -1,0 +1,14 @@
+/* TEAM */
+        Principal: Aaron Tsai
+
+        Principal: Jack Huang
+
+        Principal: Jonathan Chen
+        Social Media across the web: dijonkitchen
+
+/* THANKS */
+       http://humanstxt.org/ 
+		
+
+/* SITE */
+       https://github.com/cortlandtlabs/cortlandtlabs.github.io
