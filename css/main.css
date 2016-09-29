@@ -185,7 +185,7 @@ body {
     background-attachment: fixed;
   }
   .fifthSegment {
-    height: 50em;
+    padding-bottom: 10%;
   }
     .fifthSegment p, .seventhSegment p {
       font-size: 1.8em;
@@ -196,7 +196,7 @@ body {
     background-color: #7A7C7F;
   }
   .seventhSegment {
-    height: 100vh;
+    padding-bottom: 10%;
   }
   .team-photos {
     margin: 2em !important;
