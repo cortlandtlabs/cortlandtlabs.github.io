@@ -321,6 +321,11 @@ body {
   .ui.menu:not(.vertical) .right.item, .ui.menu:not(.vertical) .right.menu {
     margin-left: 0 !important;
   }
+  .img-description {
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+  }
 }
 
 @media (max-width: 360px) {
