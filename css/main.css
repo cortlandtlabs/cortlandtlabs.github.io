@@ -129,7 +129,7 @@ body {
   .secondSegment {
     min-height: 35em;
     background-image: url("../assets/nycwtc.jpg");
-    background-size: 250%;
+    background-size: 350%;
     background-position: center;
     background-attachment: fixed;
   }
