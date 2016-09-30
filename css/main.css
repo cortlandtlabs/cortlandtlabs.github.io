@@ -143,7 +143,7 @@ body {
     height: 20em;
     width: 100%;
     margin:2.5%;
-    border-width: 0.5px;
+    border-width: 0;
     border-style: solid;
     border-color: #d5d5d5;
   }
