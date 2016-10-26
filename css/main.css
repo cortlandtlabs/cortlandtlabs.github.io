@@ -129,7 +129,7 @@ body {
   .secondSegment {
     min-height: 35em;
     background-image: url("../assets/nycwtc.jpg");
-    background-size: 250%;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
@@ -290,6 +290,10 @@ body {
   }
   .logo {
     margin-top: 5em;
+  }
+  .secondSegment {
+    background-size: 250%;
+    background-position: top;
   }
   .thirdSegment {
     min-height: 91.5em;
