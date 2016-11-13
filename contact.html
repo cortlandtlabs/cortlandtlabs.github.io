@@ -46,7 +46,7 @@
     </div>
   </div>
   <div class="ui raised very padded text container segment contact-form">
-    <form class="ui form">
+    <form class="ui form" action="https://formspree.io/cortlandtlabs@gmail.com" method="POST">
         <h1>
           Contact us
         </h1>
@@ -60,9 +60,10 @@
       </div>
       <div class="field">
         <label>Text</label>
-        <textarea name="text"></textarea>
+        <textarea name="message"></textarea>
       </div>
-      <button class="ui button" type="submit">Submit</button>
+      <input type="text" name="_gotcha" style="display:none" />
+      <button class="ui button" type="submit" value="Send">Submit</button>
     </form>
 </body>
 </html>
