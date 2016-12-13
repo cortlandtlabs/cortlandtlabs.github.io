@@ -223,6 +223,12 @@ body {
     opacity: 0.8;
   }
 
+/* Contact Form */
+.contact-form {
+  position: relative;
+  top: 20vh;
+}
+
   footer {
     height: 28em;
     text-align: center;
