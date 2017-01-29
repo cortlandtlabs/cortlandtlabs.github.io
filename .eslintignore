@@ -1,0 +1,7 @@
+# Ignore incremental Semantic UI gulp build generated files
+/semantic/dist/
+
+# Ignore default Semantic UI files
+/semantic/src/definitions/
+/semantic/tasks/
+/semantic/gulpfile.js
