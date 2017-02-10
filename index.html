@@ -20,6 +20,7 @@
 
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
 
   <script defer src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
   <script defer type="text/javascript" src="js/typed.js"></script>
@@ -38,48 +39,31 @@
 
   </script>
   <link type="text/plain" rel="author" href="humans.txt" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 </head>
 
 <body>
-  <div class="ui container">
-    <div class="ui top fixed menu">
+<!--   <div class="ui container">
+    <div class="ui computer only secondary menu">
       <a class="item portfolio" href="index.html#portfolio"><span>portfolio</span></a>
       <a class="item values" href="index.html#values"><span>values</span></a>
       <a class="item team" href="index.html#team"><span>team</span></a>
       <a class="right item" href="contact.html"><span>contact</span></a>
     </div>
-  </div>
+  </div> -->
   <div class="firstSegment segment">
-    <div class="mission-statement">
-      <span id="typing"></span>
-      <div class="statement">
-        <p>architect,</p>
-        <p>code,</p>
-        <p>deploy.</p>
-      </div>
+    <canvas id='background-grey-overlay'></canvas>
+    <canvas id="background-wtc"></canvas>
+    <div class="animated slideInDown mission-statement">
+      <h1>architect,</h1>
+      <h1>code,</h1>
+      <h1>deploy.</h1>
     </div>
-    <img class="logo" src="assets/Cortlandt-Labs-logo.png" />
+    <img class="logo" src="assets/cortlandtlabs_logo_text.png" />
   </div>
   <div class="secondSegment segment">
   </div>
-  <div class="thirdSegment segment" id="portfolio">
-    <div class="ui container">
-      <h1 class="ui header"><i class="ui cortlandt-red small circle thin icon"></i>portfolio</h1>
-    </div>
-    <div class="ui stackable grid container">
-      <div class="seven wide column">
-        <div class="work1"></div>
-      </div>
-      <div class="seven wide column">
-        <div class="work2"></div>
-      </div>
-      <div class="seven wide column">
-        <div class="work3"></div>
-      </div>
-      <div class="seven wide column">
-        <div class="work4"></div>
-      </div>
-    </div>
+  <div class="thirdSegment segment">
   </div>
   <div class="fourthSegment segment">
   </div>

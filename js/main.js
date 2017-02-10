@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
   });
   $("#typing").typed({
-      strings: ["architect,^350 code,^350 deploy", ],
+      strings: ["architect,^350 code,^350 deploy.", ],
       typeSpeed: 60,
   });
 });
