@@ -103,7 +103,7 @@ body {
     color: #FF2444;
   }
   .firstSegment {
-    height: 100vh;
+    height: 100%;
     position: relative
   }
     #background-grey-overlay {
@@ -146,21 +146,56 @@ body {
       display: block;
       margin: 0 auto;
       top: 60%;
-      width: 50%;
+      height: 30%;
       z-index: 999;
     }
   .secondSegment {
-    min-height: 35em;
+    height: 75%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
+  .secondSegment h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Neoteric';
+  }
+  .secondSegment h2 {
+    font-weight: 100;
+    font-family: 'Roboto';
+  }
+  .secondSegment span {
+    color: #FC4F57;
+  }
   .thirdSegment {
-    min-height: 70em;
+    min-height: 65%;
+    width: 100%;
+    background-color: #323E45;
+  }
+  .thirdSegment h1 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family: 'Neoteric';
+  }
+
+  .card {
+    background-color: transparent !important;
+  }
+
+  .react {
+    background-color: #222222 !important;
+    width: auto;
+    height: 100%;
+  }
+  .node {
+    height: 100%;
   }
   .fourthSegment {
     min-height: 35em;
     width: 100%;
+    top: 0;
+    left: 15%;
     background-image: url("../assets/sf-night-min.jpeg");
     background-size: cover;
     background-position: center;
