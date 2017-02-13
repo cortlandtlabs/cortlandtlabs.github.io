@@ -63,29 +63,30 @@
   </div>
   <div class="secondSegment ui stackable padded grid ">
     <div class="fourteen wide left aligned middle aligned centered column">
-      <h1 >Are you looking to...</h1>
+      <h1 >Are <span>YOU</span> looking to...</h1>
       <h2>Design a <span>Proof of Concept</span> to raise capital?</h2>
       <h2>Create a <span>Minimum Viable Product</span> to attract users?</h2>
       <h2>Build a <span>Production-level App</span> to change the world?</h2>
     </div>
   </div>
-  <div class="thirdSegment ui stackable padded grid">
-    <div class="fourteen wide left aligned middle aligned centered column">
-      <h1 >Technology</h1>
+  <div class="thirdSegment ui padded grid">
+    <div class="fourteen wide middle aligned centered column">
+      <h1>Technology</h1>
+      <div class="ui divider"></div>
       <div class="ui three middle aligned cards">
         <div class="card">
           <div class="image">
-            <img src="assets/rails-logo.png">
+            <img src="assets/rails-logo.png" />
           </div>
         </div>
         <div class="card react">
           <div class="image">
-            <img src="assets/react-logo.png">
+            <img src="assets/react-logo.png" />
           </div>
         </div>
         <div class="card node">
           <div class="image">
-            <img src="assets/nodejs-icon.png">
+            <img src="assets/nodejs-icon.png" />
           </div>
         </div>
       </div>
@@ -93,21 +94,57 @@
   </div>
   <div class="fourthSegment segment">
   </div>
-  <div class="fifthSegment segment">
+  <div class="fifthSegment ui padded grid">
+    <div class="fourteen wide middle aligned centered column">
+      <h1>Pricing</h1>
+      <div class="ui three stackable centered aligned middle aligned cards">
+        <div class="card">
+          <div>
+            <img class="package-image" src="assets/prototype.png"/>
+          </div>
+          <h2>Prototype</h2>
+          <p>A proof of concept that you can interact</p>
+          <div class="ui horizontal divider"><i class="tag icon"></i></div>
+          <h3 class="price">
+            $ 5,000
+          </h3>
+        </div>
+        <div class="card">
+          <div>
+            <img class="package-image" src="assets/mvp.png"/>
+          </div>
+          <h2>MVP</h2>
+          <p>A solid app with core functionalities</p>
+          <div class="ui horizontal divider"><i class="tag icon"></i></div>
+          <h3 class="price">
+            $ 10,000
+          </h3>
+        </div>
+        <div class="card">
+          <div>
+            <img class="package-image" src="assets/mvp-plus.png"/>
+          </div>
+          <h2>MVP+</h2>
+          <p>A user-heavy app aimed to impress</p>
+          <div class="ui horizontal divider"><i class="tag icon"></i></div>
+          <h3 class="price">
+            $ 20,000
+          </h3>
+        </div>
+      </div>
+    </div>    
   </div>
-  <div class="sixthSegment segment" id="values">
-    <div class="ui container">
-      <h1 class="ui header">
-        <i class="ui cortlandt-red small circle thin icon">
-        </i>
-        values
+  <div class="sixthSegment ui padded grid " id="values">
+    <div class="fourteen wide middle aligned centered column">
+      <h1>
+        Values
       </h1>
       <p>
-        Lots of people have ideas; many don't have partnerships that seek
+        Lots of people have <span>ideas</span>; many don't have partnerships that seek
         understanding to help nurture, improve, and launch them.
       </p>
       <p>
-        We focus on the user experience. We're here to architect, code, and
+        We focus on the <span>user experience</span>. We're here to architect, code, and
         deploy software with you that improves the experiences of you and your
         users; helping you figure out not only what people say they want,
         but what people really need.
@@ -116,50 +153,37 @@
         Businesses become sustainable by constantly improving with
         flexibility and agility. With this philosophy, they'll not only
         survive, but also grow and adapt faster than others. With passion and
-        hard work, a business is a life-long pursuit.
+        hard work, a business is a <span>life-long pursuit</span>.
       </p>
       <p>
-        Partner with us to build your strong business efficiently.
+        <span>Partner with us</span> to build your strong business efficiently.
       </p>
     </div>
   </div>
-
-  <div class="sixthSegment segment" id="team">
-    <div class="ui container">
-      <h1 class="ui header">
-        <i class="ui cortlandt-red small circle thin icon">
-        </i>
-        team
-      </h1>
-      <div class="team-photos ui three column grid">
-        <div class="profile-pic column">
-            <img id="aaron-profile-pic" class= "ui small centered circular image" src="assets/aaron.jpg" />
-            <p class="img-description">aaron<br>•<br>principal</p>
+  <div class="seventhSegment ui padded grid">
+    <div class="fourteen wide middle aligned centered column">
+      <form class="ui form" action="https://formspree.io/cortlandtlabs@gmail.com" method="POST">
+          <h1>
+            Contact us
+          </h1>
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required />
         </div>
-        <div class="profile-pic column">
-            <img id="jack-profile-pic" class= "ui small centered circular image" src="assets/jack.jpg" />
-            <p class="img-description">jack<br>•<br>principal</p>
+        <div class="field">
+          <input type="email" name="email" placeholder="E-mail" required />
         </div>
-        <div class="profile-pic column">
-            <img id="jon-profile-pic" class= "ui small centered circular image" src="assets/jon.jpg" />
-            <p class="img-description">jon<br>•<br>principal</p>
+        <div class="field">
+          <input type="text" name="_subject" placeholder="Subject" required />
         </div>
-      </div>
-      <p>
-        With a wide range of experiences, we were inspired to dive into making
-        beautiful and meaningful things.
-      </p>
-      <p>
-        Happiness always has and always will be about the people: our team, the
-        open-source community, and our partnerships. We help each other through
-        the tough times and grow through shared opportunities and learning.
-      </p>
-      <p>
-        Join us on this adventure together!
-      </p>
+        <div class="field">
+          <textarea name="message"></textarea>
+        </div>
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="http://cortlandtlabs.co/" />
+        <button class="ui button" type="submit" value="Send">Submit</button>
+      </form>
     </div>
   </div>
-
   <footer class="ui inverted vertical footer segment">
     <img src="assets/Cortlandt-Labs-logo.png">
     <h2>Cortlandt Labs</h2>

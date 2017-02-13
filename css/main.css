@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /*overflow: hidden;*/
 }
 
 body {
@@ -170,15 +169,15 @@ body {
   .thirdSegment {
     min-height: 65%;
     width: 100%;
-    background-color: #323E45;
+    background: linear-gradient( #022235, #323E45);
   }
   .thirdSegment h1 {
     text-align: center;
     color: white;
+    font-size:2.5em;
     font-weight: 400;
     font-family: 'Neoteric';
   }
-
   .card {
     background-color: transparent !important;
   }
@@ -202,33 +201,70 @@ body {
     background-attachment: fixed;
   }
   .fifthSegment {
-    padding-bottom: 10%;
+    min-height: 75%;
   }
-    .fifthSegment p, .seventhSegment p {
-      font-size: 1.8em;
-      font-weight: lighter;
-    }
+  .fifthSegment h1 {
+    padding: 1em;
+    font-size:2.5em;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Neoteric';
+  }
+  .fifthSegment div {
+    text-align: center;
+  }
+  .package-image {
+    text-align: center;
+    width: 100px;
+    height: auto;
+    padding: 1em;
+  }
+  .fifthSegment h2{
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #FF2444;
+  }
+  .price {
+    font-size: 2em;
+    padding: 0.5em;
+  }
   .sixthSegment {
-    height: 35em;
-    background-color: #7A7C7F;
+    min-height: 75%;
+    background: linear-gradient( #022235, #323E45);
   }
-  .seventhSegment {
-    padding-bottom: 10%;
+  .sixthSegment h1 {
+    font-size:2.5em;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family: 'Neoteric';
   }
-  .team-photos {
-    margin: 2em !important;
+  .sixthSegment p {
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-bottom: 1em;
   }
-  .img-description {
+  .sixthSegment span {
+    color: #FF2444;
   }
-  .profile-pic:hover .img-description {
-    visibility: visible;
-    opacity: 0.8;
+  .seventhSegment h1 {
+    font-size:2.5em;
+    padding: 1em;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Neoteric';
+  }
+  .ui .form {
+    text-align: center;
+    margin-bottom: 4em;
   }
 
 /* Contact Form */
 .contact-form {
-  position: relative;
-  top: 20vh;
 }
 
   footer {
