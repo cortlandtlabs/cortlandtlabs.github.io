@@ -168,6 +168,9 @@ body {
   .secondSegment span {
     color: #FC4F57;
   }
+  #partner {
+    text-align: right;
+  }
   .thirdSegment {
     min-height: 65%;
     width: 100%;
