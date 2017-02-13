@@ -225,6 +225,9 @@ body {
     font-weight: 200;
     color: #FF2444;
   }
+  .fifthSegment .build {
+    margin: 3em;
+  }
   .price {
     font-size: 2em;
     padding: 0.5em;
@@ -262,10 +265,6 @@ body {
     text-align: center;
     margin-bottom: 4em;
   }
-
-/* Contact Form */
-.contact-form {
-}
 
   footer {
     height: 28em;
