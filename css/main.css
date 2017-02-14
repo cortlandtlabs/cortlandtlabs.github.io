@@ -209,9 +209,9 @@ footer p {
 }
 
 /*mobile*/
-@media only screen and (max-width : 480px) {
-.firstSegment {
-  height: 50em;
-  position: relative
-}
+  @media only screen and (max-width : 480px) {
+  .firstSegment {
+    height: 50em;
+    position: relative
+  }
 }
