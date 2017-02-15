@@ -17,197 +17,201 @@ body {
   src: url('../assets/neoteric.ttf') format('truetype');
 }
 
-  .cortlandt-red {
-    color: #FF2444;
+.cortlandt-red {
+  color: #FF2444;
+}
+.firstSegment {
+  height: 100vh;
+  position: relative
+}
+  #background-grey-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.70;
+    background-color: #EEEEEE;
   }
+  #background-wtc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0.5;
+    background-image: url("../assets/nycwtc.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .mission-statement {
+    animation-delay: 0.6s;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: left;
+    color: #4A4A4A;
+    z-index: 999;
+  }
+  .mission-statement h1{
+    font-family: Neoteric;
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 200;
+  }
+  .logo {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 60%;
+    height: 30%;
+    z-index: 999;
+  }
+.secondSegment {
+  min-height: 45em;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.secondSegment h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Neoteric';
+}
+.secondSegment h2 {
+  font-weight: 100;
+  font-family: 'Roboto';
+}
+.secondSegment span {
+  color: #FC4F57;
+}
+#partner {
+  text-align: right;
+}
+.thirdSegment {
+  min-height: 45em;
+  width: 100%;
+  background: linear-gradient( #022235, #323E45);
+}
+.thirdSegment h1 {
+  text-align: center;
+  color: white;
+  font-size:2.5em;
+  font-weight: 400;
+  font-family: 'Neoteric';
+}
+.card {
+  background-color: transparent !important;
+}
+
+.react {
+  background-color: #222222 !important;
+  width: auto;
+  height: 100%;
+}
+.node {
+  height: 100%;
+}
+.fourthSegment {
+  min-height: 35em;
+  width: 100%;
+  top: 0;
+  left: 15%;
+  background-image: url("../assets/sf-night-min.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.fifthSegment {
+  min-height: 65em;
+}
+.fifthSegment h1 {
+  padding: 1em;
+  font-size:2.5em;
+  text-align: center;
+  font-family: 'Neoteric';
+}
+.fifthSegment div {
+  text-align: center;
+}
+.package-image {
+  text-align: center;
+  width: 100px;
+  height: auto;
+  padding: 1em;
+}
+.fifthSegment h2{
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 200;
+  color: #FF2444;
+}
+.fifthSegment .build {
+  margin: 3em;
+}
+.price {
+  font-size: 2em;
+  padding: 0.5em;
+}
+.sixthSegment {
+  min-height: 45em;
+  background: linear-gradient( #022235, #323E45);
+}
+.sixthSegment h1 {
+  font-size:2.5em;
+  padding: 1em;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-family: 'Neoteric';
+}
+.sixthSegment p {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 200;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+.sixthSegment span {
+  color: #FF2444;
+}
+.seventhSegment h1 {
+  font-size:2.5em;
+  padding: 1em;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Neoteric';
+}
+.ui .form {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+footer {
+  height: 28em;
+  text-align: center;
+  font-style: 'avenir';
+  font-weight: lighter;
+}
+footer h2 {
+  margin-top: 0;
+  font-family: "Neoteric";
+}
+footer img {
+  display: block;
+  width: 10em;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+footer p {
+  font-size: 12px;
+}
+
+/*mobile*/
+  @media only screen and (max-width : 480px) {
   .firstSegment {
-    height: 100vh;
+    height: 50em;
     position: relative
   }
-    #background-grey-overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      z-index: 1;
-      opacity: 0.70;
-      background-color: #EEEEEE;
-    }
-    #background-wtc {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      z-index: 0.5;
-      background-image: url("../assets/nycwtc.jpg");
-      background-size: cover;
-      background-position: center;
-    }
-    .mission-statement {
-      animation-delay: 0.6s;
-      position: absolute;
-      top: 25%;
-      left: 10%;
-      text-align: left;
-      color: #4A4A4A;
-      z-index: 999;
-    }
-    .mission-statement h1{
-      font-family: Neoteric;
-      font-size: 3.5em;
-      line-height: 1em;
-      font-weight: 200;
-    }
-    .logo {
-      position: relative;
-      display: block;
-      margin: 0 auto;
-      top: 60%;
-      height: 30%;
-      z-index: 999;
-    }
-  .secondSegment {
-    height: 75vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  .secondSegment h1 {
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Neoteric';
-  }
-  .secondSegment h2 {
-    font-weight: 100;
-    font-family: 'Roboto';
-  }
-  .secondSegment span {
-    color: #FC4F57;
-  }
-  #partner {
-    text-align: right;
-  }
-  .thirdSegment {
-    min-height: 65vh;
-    width: 100%;
-    background: linear-gradient( #022235, #323E45);
-  }
-  .thirdSegment h1 {
-    text-align: center;
-    color: white;
-    font-size:2.5em;
-    font-weight: 400;
-    font-family: 'Neoteric';
-  }
-  .card {
-    background-color: transparent !important;
-  }
-
-  .react {
-    background-color: #222222 !important;
-    width: auto;
-    height: 100%;
-  }
-  .node {
-    height: 100%;
-  }
-  .fourthSegment {
-    min-height: 35em;
-    width: 100%;
-    top: 0;
-    left: 15%;
-    background-image: url("../assets/sf-night-min.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  .fifthSegment {
-    min-height: 75%;
-  }
-  .fifthSegment h1 {
-    padding: 1em;
-    font-size:2.5em;
-    text-align: center;
-    font-family: 'Neoteric';
-  }
-  .fifthSegment div {
-    text-align: center;
-  }
-  .package-image {
-    text-align: center;
-    width: 100px;
-    height: auto;
-    padding: 1em;
-  }
-  .fifthSegment h2{
-    margin: 0;
-    font-family: 'Roboto';
-    font-weight: 200;
-    color: #FF2444;
-  }
-  .fifthSegment .build {
-    margin: 3em;
-  }
-  .price {
-    font-size: 2em;
-    padding: 0.5em;
-  }
-  .sixthSegment {
-    min-height: 75vh;
-    background: linear-gradient( #022235, #323E45);
-  }
-  .sixthSegment h1 {
-    font-size:2.5em;
-    padding: 1em;
-    text-align: center;
-    color: white;
-    font-weight: 400;
-    font-family: 'Neoteric';
-  }
-  .sixthSegment p {
-    font-family: 'Roboto';
-    color: white;
-    font-weight: 200;
-    font-size: 1.2em;
-    margin-bottom: 1em;
-  }
-  .sixthSegment span {
-    color: #FF2444;
-  }
-  .seventhSegment h1 {
-    font-size:2.5em;
-    padding: 1em;
-    text-align: center;
-    font-weight: 400;
-    font-family: 'Neoteric';
-  }
-  .ui .form {
-    text-align: center;
-    margin-bottom: 4em;
-  }
-
-  footer {
-    height: 28em;
-    text-align: center;
-    font-style: 'avenir';
-    font-weight: lighter;
-  }
-  footer h2 {
-    margin-top: 0;
-    font-family: "Neoteric";
-  }
-  footer img {
-    display: block;
-    width: 10em;
-    margin: 0 auto;
-    margin-top: 5em;
-  }
-  footer p {
-    font-size: 12px;
-  }
-  .ui.top.fixed.menu {
-
-  }
-
+}
